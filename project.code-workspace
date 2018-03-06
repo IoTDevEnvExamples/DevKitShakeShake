@@ -8,7 +8,7 @@
         }
     ],
     "settings": {
-        "IoTDev.DevicePath": "Device",
-        "IoTDev.FunctionPath": "Function"
+        "IoTWorkbench.DevicePath": "Device",
+        "IoTWorkbench.FunctionPath": "Function"
     }
 }
