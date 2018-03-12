@@ -29,7 +29,7 @@
 3. Hold button A on DevKit, then press rest button, and then release button A to enter config mode.
 4. Wait for connection string configuration to complete.
 
-## Uploade Arduino Code to DevKit
+## Upload Arduino Code to DevKit
 
 1. Connect your DevKit to your machine.
 2. Press **F1** or **Ctrl + Shift + P** in Visual Studio Code - **IoT Workbench:Device** and click **Device Upload**.
