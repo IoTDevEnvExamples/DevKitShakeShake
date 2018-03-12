@@ -1,6 +1,7 @@
 {
     "files.exclude": {
-        ".build": true 
+        ".build": true,
+        ".iotworkbenchproject": true
     },
     "C_Cpp.intelliSenseEngine": "Tag Parser"
 }
