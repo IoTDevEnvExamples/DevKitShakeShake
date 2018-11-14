@@ -31,13 +31,11 @@ namespace IoTWorkbench
 
     public static class ShakeShake
     {
-        private static HttpClient client = new HttpClient();
-
         [FunctionName("IoTHubShakeShake")]
         public static void Run([IoTHubTrigger("%eventHubConnectionPath%", Connection = "eventHubConnectionString")]EventData message, ILogger log)
         {
-            // Send back to device
-            string deviceId = "demo1";
+            // TODO： Input the device name.
+            string deviceId = "";
 
             log.LogInformation($"C# IoT Hub trigger function processed a message: {Encoding.UTF8.GetString(message.Body.Array)}");
 
