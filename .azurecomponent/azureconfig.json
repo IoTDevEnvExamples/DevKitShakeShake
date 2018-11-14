@@ -17,7 +17,12 @@
                     "type": 1
                 }
             ],
-            "type": "AzureFunctions"
+            "type": "AzureFunctions",
+            "componentInfo": {
+                "values": {
+                    "functionLanguage": "C#"
+                }
+            }
         }
     ]
 }
