@@ -14,7 +14,7 @@ static const unsigned char smallTweet [] =
     0x01,0x00,
 };
 
-void DrawAppTitle(char* text)
+void DrawAppTitle(const char* text)
 {
     char sz[32];
     snprintf(sz, 32, "   %s", text);

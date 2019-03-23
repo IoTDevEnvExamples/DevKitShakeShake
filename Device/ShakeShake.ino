@@ -75,7 +75,7 @@ static void ScrollTweet()
   if (msgStart < 0)
   {
     // First time
-    DrawAppTitle(msgHeader);
+    DrawAppTitle((const char*)msgHeader);
     msgStart = 0;
   }
   else

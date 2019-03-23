@@ -8,7 +8,7 @@
 extern "C"{
 #endif // __cplusplus
 
-void DrawAppTitle(char* text);
+void DrawAppTitle(const char* text);
 
 void DrawShakeAnimation(void);
 
